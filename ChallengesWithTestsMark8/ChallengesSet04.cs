@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace ChallengesWithTestsMark8
 {
@@ -11,6 +12,8 @@ namespace ChallengesWithTestsMark8
 
         public int GetLengthOfShortestString(string str1, string str2, string str3, string str4)
         {
+            //string[] stringArray = { str1, str2, str3, str4 };
+            //string shortestString = stringArray.OrderBy(x => x.Length)
             throw new NotImplementedException();
         }
 

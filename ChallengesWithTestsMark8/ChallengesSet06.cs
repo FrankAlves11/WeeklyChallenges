@@ -9,7 +9,7 @@ namespace ChallengesWithTestsMark8
         public bool CollectionContainsWord(IEnumerable<string> words, string word, bool ignoreCase)
         {
             if (words == null)
-                throw new ArgumentNullException(nameof(words));
+                return false;
 
             if (ignoreCase)
             {
